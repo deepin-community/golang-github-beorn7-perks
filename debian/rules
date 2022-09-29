@@ -1,0 +1,6 @@
+#!/usr/bin/make -f
+
+export DH_GOLANG_INSTALL_EXTRA := quantile/exampledata.txt
+
+%:
+	dh $@ --buildsystem=golang --with=golang

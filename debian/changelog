@@ -1,0 +1,44 @@
+golang-github-beorn7-perks (1.0.1-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Daniel Swarbrick ]
+  * New upstream release.
+  * d/gbp.conf: stop using pristine-tar and use debian/sid branch instead.
+  * Update Standards-Version to 4.4.1 (no changes).
+  * Update debhelper version to 12.
+  * Add debian/watch file.
+
+  [ Martina Ferrari ]
+  * Automated cme fixes.
+
+ -- Martina Ferrari <tincho@debian.org>  Thu, 16 Jan 2020 12:08:37 +0000
+
+golang-github-beorn7-perks (0.0~git20160804.0.4c0e845-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+  * debian/control: Remove golang-go dependency from -dev package.
+  * debian/control: Replace golang-go with golang-any in Build-Depends.
+
+ -- Martín Ferrari <tincho@debian.org>  Wed, 23 Nov 2016 15:06:45 +0100
+
+golang-github-beorn7-perks (0.0~git20150223.0.b965b61-2) unstable; urgency=medium
+
+  * debian/control:
+    - Update Standards-Version with no changes.
+    - Update Vcs-* to use HTTPS.
+    - Improve package description.
+    - Add me and Tim to Uploaders.
+  * debian/rules:
+    - Do not install *everything*.
+
+ -- Martín Ferrari <tincho@debian.org>  Sun, 19 Jun 2016 18:09:35 +0000
+
+golang-github-beorn7-perks (0.0~git20150223.0.b965b61-1) unstable; urgency=medium
+
+  * Initial release (Closes: #804123).
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Thu, 05 Nov 2015 17:00:53 +1100
